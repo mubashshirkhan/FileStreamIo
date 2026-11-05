@@ -6,8 +6,8 @@ import java.io.IOException;
 
 public class CopyData {
     public static void main(String[] args) throws IOException {
-        FileInputStream fis = new FileInputStream("abc.txt");
         FileOutputStream fos = new FileOutputStream("bbc.txt");
+        FileInputStream fis = new FileInputStream("abc.txt");
 
         int data;
 
