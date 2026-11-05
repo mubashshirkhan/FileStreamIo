@@ -8,6 +8,5 @@ public class ModifyFileStreamV25 {
         String allLines = fr.readAllAsString();
 
         System.out.println(allLines);
-
     }
 }
